@@ -1,10 +1,18 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { SafeAreaView, Text, StyleSheet } from 'react-native'
 
 export default function Search() {
   return (
-    <View>
+    <SafeAreaView style={styles.container}>
       <Text>Procurar</Text>
-    </View>
+    </SafeAreaView>
   )
 }
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
+})
