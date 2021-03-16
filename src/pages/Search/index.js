@@ -4,7 +4,7 @@ import { SafeAreaView, Text, StyleSheet } from 'react-native'
 export default function Search() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Procurar</Text>
+      <Text>Procurarzinho</Text>
     </SafeAreaView>
   )
 }
