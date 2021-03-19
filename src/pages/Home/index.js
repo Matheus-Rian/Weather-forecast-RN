@@ -66,6 +66,7 @@ export default function Home() {
       <Menu />
       <Conditions weather={weather}/>
       <FlatList 
+        showsHorizontalScrollIndicator={false}
         horizontal={true}
         contentContainerStyle={{ paddingBottom: '5%' }}
         style={styles.list}
